@@ -1,0 +1,14 @@
+.map {
+  padding-top: 4vh;
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
+.map img {
+  height: 80%;
+  width: 100%;
+}/*# sourceMappingURL=map.css.map */

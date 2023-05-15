@@ -1,0 +1,37 @@
+.about {
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .informationWrapper {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about .informationWrapper .aboutInformation, .about .informationWrapper .aboutImage {
+  width: 45%;
+  height: 90%;
+}
+.about .informationWrapper .aboutInformation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about .informationWrapper .aboutInformation .line {
+  width: 40%;
+  height: 9px;
+  background-color: #2d3a63;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.about .informationWrapper .aboutImage {
+  overflow: hidden;
+}
+.about .informationWrapper .aboutImage img {
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=about.css.map */

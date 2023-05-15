@@ -1,0 +1,40 @@
+$main: #2d3a63;
+
+
+.about {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .informationWrapper {
+        width: 80%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .aboutInformation, .aboutImage {
+            width: 45%;
+            height: 90%;
+        }
+        .aboutInformation {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .line {
+                width: 40%;
+                height: 9px;
+                background-color: $main;
+                margin-top: 10px;
+                margin-bottom: 10px;
+              }
+        }
+        .aboutImage {
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
