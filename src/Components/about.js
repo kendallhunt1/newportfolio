@@ -8,15 +8,19 @@ const About = () => {
                 <div className="aboutInformation">
                     <h1>About</h1>
                     <div className="line"></div>
-                    <p>The About page is the core description of your website. Here is where you let 
-                        clients know what your website is about. You can edit all of this text and replace 
-                        it with what you want to write. For example you can let them know how long you have 
-                        been in business, what makes your company special, what are its core values and more.
-                        <br/>Edit your About page from the Pages tab by clicking the edit button.
+                    <p>
+                        Full-stack developer that focuses on consumer application usage. I started in web development
+                        on the front-end of software, but eventually made my way into back-end development as I wanted
+                        to create full-scale applications that have the capability to do what other applications don't.
+                        Depending on the application the technologies that I use vary, such as relational, and non-relational
+                        databases, security measures, and more. I focus on delivering software efficiently, and creating
+                        applications that are a breeze to use.<br />
+                        Aside from development I love to spend time with those that I love, I love learning, and I cherish every
+                        second that I have.
                     </p>
                 </div>
                 <div className="aboutImage">
-                    <img src="https://wagsrealestate.com/wp-content/uploads/2018/06/commercial-right.png" alt="About Image" />
+                    <img src="/images/about.png" alt="About Image" />
                 </div>
             </div>
         </section>

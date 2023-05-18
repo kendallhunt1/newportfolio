@@ -1,40 +1,136 @@
 $main: #2d3a63;
 
-
 .about {
-    height: 60vh;
-    width: 100vw;
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .informationWrapper {
+    width: 90% !important;
+    height: 80%;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    .informationWrapper {
-        width: 80%;
-        height: 80%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        .aboutInformation, .aboutImage {
-            width: 45%;
-            height: 90%;
-        }
-        .aboutInformation {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            .line {
-                width: 40%;
-                height: 9px;
-                background-color: $main;
-                margin-top: 10px;
-                margin-bottom: 10px;
-              }
-        }
-        .aboutImage {
-            overflow: hidden;
-            img {
-                width: 100%;
-                height: auto;
-            }
-        }
+    justify-content: center;
+    .aboutInformation,
+    .aboutImage {
+      max-width: 45%;
     }
+    
+    .aboutInformation {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 45%;
+      
+      .line {
+        width: 40%;
+        height: 9px;
+        background-color: $main;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      p {
+        max-width: 60%;
+      }
+    }
+    
+    .aboutImage {
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      height: 93%;
+      img {
+        height: 100% !important;
+        width: auto;
+      }
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 650px) {
+    .informationWrapper {
+      flex-wrap: nowrap;
+      height: 90%;
+      
+      .aboutInformation {
+        width: 55%;
+        height: 100%;
+        p {
+          max-width: 75%;
+          font-size: 0.65rem;
+        }
+      }
+    }
+  }
+  
+  @media (min-width: 651px) and (max-width: 1024px) {
+    .informationWrapper {
+      width: 70%;
+      .aboutInformation {
+        width: 55%;
+        height: 100%;
+        p {
+          max-width: 75%;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .informationWrapper {
+      width: 60%;
+      .aboutInformation {
+        width: 55%;
+        height: 100%;
+        p {
+          max-width: 75%;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }
+
+
+// $main: #2d3a63;
+
+
+// .about {
+//     height: 60vh;
+//     width: 100vw;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     .informationWrapper {
+//         width: 80%;
+//         height: 80%;
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+//         .aboutInformation, .aboutImage {
+//             width: 45%;
+//             height: 90%;
+//         }
+//         .aboutInformation {
+//             display: flex;
+//             flex-direction: column;
+//             justify-content: space-between;
+//             .line {
+//                 width: 40%;
+//                 height: 9px;
+//                 background-color: $main;
+//                 margin-top: 10px;
+//                 margin-bottom: 10px;
+//               }
+//         }
+//         .aboutImage {
+//             overflow: hidden;
+//             img {
+//                 height: 100%;
+//                 width: auto;
+//             }
+//         }
+//     }
+// }

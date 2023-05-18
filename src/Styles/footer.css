@@ -38,4 +38,25 @@
 }
 .footer .footerInformation .footerLinks .bannerButton:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .footer .footerInformation {
+    width: 80%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer .footerInformation {
+    width: 60%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .footer .footerInformation {
+    width: 40%;
+  }
+}
+@media (min-width: 1200px) {
+  .footer .footerInformation {
+    width: 30%;
+  }
 }/*# sourceMappingURL=footer.css.map */

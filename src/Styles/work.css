@@ -20,8 +20,68 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+.work .workWrapper a:hover {
+  transform: scale(1.1);
 }
 .work .workWrapper a img {
   width: 100%;
   height: auto;
+}
+
+@media (max-width: 480px) {
+  .workWrapper a {
+    width: 90%;
+    height: 40%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .workWrapper a {
+    flex-basis: calc(50% - 20px);
+    width: 45%;
+    height: 35%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .workWrapper a {
+    flex-basis: calc(33.33% - 20px);
+    width: 30%;
+    height: 30%;
+  }
+}
+@media (min-width: 1025px) {
+  .workWrapper {
+    width: 85% !important;
+  }
+  .workWrapper a {
+    flex-basis: calc(20% - 20px);
+    width: 19%;
+    height: 35% !important;
+  }
+  .workWrapper a img {
+    width: 90% !important;
+  }
+}
+@media (min-width: 1250px) {
+  .workWrapper a {
+    flex-basis: calc(20% - 20px);
+    width: 19%;
+    height: 35% !important;
+  }
+  .workWrapper a img {
+    width: 80% !important;
+  }
+}
+@media (min-width: 1500px) {
+  .workWrapper a {
+    flex-basis: calc(20% - 20px);
+    width: 19%;
+    height: 35% !important;
+  }
+  .workWrapper a img {
+    width: 65% !important;
+  }
 }/*# sourceMappingURL=work.css.map */

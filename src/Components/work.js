@@ -8,28 +8,28 @@ const Work = () => {
             <div className="workWrapper">
                 {/* add years to my work */}
                 <a href="#">
-                    <img src="/texasoil.png" alt="My Work" />
+                    <img src="/images/texasoil.png" alt="GoBackz" />
                 </a>
                 <a href="#">
-                    <img src="/texasoil.png" alt="My Work" />
+                    <img src="/images/focustracks.png" alt="My Work" />
                 </a>
                 <a href="#">
-                    <img src="/texasoil.png" alt="My Work" />
+                    <img src="/images/nasaapi.png" alt="My Work" />
                 </a>
                 <a href="#">
-                    <img src="/texasoil.png" alt="My Work" />
+                    <img src="/images/nextlevelbets.png" alt="My Work" />
                 </a>
                 <a href="#">
-                    <img src="/texasoil.png" alt="My Work" />
+                    <img src="/images/supremedetailing.png" alt="My Work" />
                 </a>
                 <a href="#">
-                    <img src="/texasoil.png" alt="My Work" />
+                    <img src="/images/taylormade.jpg" alt="My Work" />
                 </a>
                 <a href="#">
-                    <img src="/texasoil.png" alt="My Work" />
+                    <img src="/images/golfsidekick.png" alt="My Work" />
                 </a>
                 <a href="#">
-                    <img src="/texasoil.png" alt="My Work" />
+                    <img src="/images/portfolio.png" alt="My Work" />
                 </a>
             </div>
         </section>

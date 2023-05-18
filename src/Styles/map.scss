@@ -12,3 +12,24 @@
         width: 100%;
     }
 }
+
+@media (min-width: 481px) and (max-width: 800px) {
+    .map {
+        height: 40vh;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .map {
+        height: 70vh;
+    }
+}
+
+@media (min-width: 1201px) {
+    .map {
+        img {
+            height: 80%;
+            width: auto;
+        }
+    }
+}
