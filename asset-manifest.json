@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/newportfolio/static/css/main.82e61181.css",
-    "main.js": "/newportfolio/static/js/main.ecb6376c.js",
+    "main.css": "/newportfolio/static/css/main.e25e2abf.css",
+    "main.js": "/newportfolio/static/js/main.dd9442e4.js",
     "static/js/787.1ed0c42c.chunk.js": "/newportfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Chillicothe.png": "/newportfolio/static/media/Chillicothe.be6ba7d201f6c728ed8d.png",
+    "static/media/portfolio.png": "/newportfolio/static/media/portfolio.d95db64470014e215858.png",
+    "static/media/golfsidekick.png": "/newportfolio/static/media/golfsidekick.3b6d9c42b2245cfbdbe7.png",
+    "static/media/taylormade.jpg": "/newportfolio/static/media/taylormade.3536994ea37f35b127a4.jpg",
+    "static/media/nasaapi.png": "/newportfolio/static/media/nasaapi.aaf4580447afd4db2acd.png",
+    "static/media/supremedetailing.png": "/newportfolio/static/media/supremedetailing.c2693420f32e5904a9cb.png",
     "index.html": "/newportfolio/index.html",
-    "main.82e61181.css.map": "/newportfolio/static/css/main.82e61181.css.map",
-    "main.ecb6376c.js.map": "/newportfolio/static/js/main.ecb6376c.js.map",
+    "main.e25e2abf.css.map": "/newportfolio/static/css/main.e25e2abf.css.map",
+    "main.dd9442e4.js.map": "/newportfolio/static/js/main.dd9442e4.js.map",
     "787.1ed0c42c.chunk.js.map": "/newportfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82e61181.css",
-    "static/js/main.ecb6376c.js"
+    "static/css/main.e25e2abf.css",
+    "static/js/main.dd9442e4.js"
   ]
 }
